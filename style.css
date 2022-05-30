@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+@font-face {
+      font-family: "atelie";
+      src: url('fontes/hello_georgina_script/Hello\ Giorgina.otf') format('opentype'),url('fontes/hello_georgina_script/Hello\ Giorgina.ttf') format('truetype');
+}
+@font-face {
+      font-family:'Hollymoon Script';
+      src: url('fontes/hollymoon_script/Hollymoon\ Script.otf') format('opentype'),url('fontes/hollymoon_script/Hollymoon\ Script.ttf') format('truetype');
+}
+
+html {
+      scroll-behavior: smooth;
+}
+
+body {
+      background-image: url('IMAGENS/FUNDO.png');
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 65%;
+}
+
+#banner {
+      width:100% 
+}
+
+#menu {
+      display: flex;
+      list-style-type: none;
+      justify-content: center;
+      color:#EFBDCA;
+      font-size: 1.6em;
+      
+      
+}
+
+#menu a {
+      text-decoration: none;
+      color:#EFBDCA;
+      padding: 10px;      
+}
+
+
+#divquemsomos {
+      display: flex;
+      align-items: center;
+}
+
+
+#h1quemsomos {
+      display: flex;
+      justify-content: center;
+      font-family:'atelie';
+      font-weight: 50;
+      font-size: 5em;
+      font-style:normal;
+      text-decoration:none;
+      color: #fff;
+      margin-bottom: 0px;
+      
+}
+#Pquemsomos {
+      display: flex;
+      font-family: 'itim';
+      text-align: justify;
+      font-size: 1.5em;
+      margin-top: 0px;
+      padding-top: 0px;
+      padding-bottom: 20px;
+      padding-left: 10px;
+      padding-right: 10px;
+}
+
+
+.h2produto {
+      font-size: 3.5em;
+      font-family: 'itim';
+      color: #A2D4E3;
+      margin-top: 10px;
+}
+
+.produtos {
+      display: flex;
+      justify-content: center;
+      padding: 50px;
+}
+
+.lista {
+      font-family: 'itim';
+      font-size: 2em;
+}
+
+#elo7 {
+      background-image: url(IMAGENS/BANNER\ ELO.jpg);
+      background-size:contain;
+}
+
+#arquivos-digitais {
+      display: flex;
+      justify-content:space-evenly;
+      font-family: 'Hollymoon Script';
+      font-size: 5em;
+      color:#a3d4e3;
+      font-style: normal;
+      font-weight:normal;
+}
+
+#elo2 {
+      text-align: center;
+      font-family:'Roboto Slab';
+      font-size: 2.1em;
+      color: black;
+}
+
+#contato {
+      display: flex;
+      justify-content: center;
+      font-size: 4em;
+      font-family: 'itim';
+      color: #EFBDCA;
+}
+#lista-pé {
+      display: flex;
+      justify-content: center;
+      list-style-type: none;
+}
+.sociais {
+      margin: 20px;
+}
+
+#listaelo7 {
+      display: flex;
+     justify-content: center;
+      list-style-type: none;
+      color: black;
+      font-family:'Roboto Slab';
+      font-size: 1.3em;
+}
+
+#listaelo7 li {
+      margin: 10px;
+}
+
+#clique {
+      font-size: 2.7em;
+      font-family: 'Roboto Slab';
+      color:#feba0f;
+      text-align: center;
+}
+
+#porapenas {
+      display: flex;
+      color:#00c4ff;
+      font-family: 'Roboto Slab';
+      justify-content: center;
+}
+
+#porapenas1  {
+      font-family: 'Roboto Slab';
+      font-size: 2.5em;
+      margin-top: 50px;
+      margin-right: 15px;
+     
+}
+
+#porapenas2 {
+      font-family: 'Roboto Slab';
+      font-size: 5.4em;
+      margin-top: 0px;
+      margin-bottom: 0px;
+}
+
+#butao {
+      
+      border-radius: 50px;
+      background-color:#EFBDCA;
+      color:#FF0042;
+      text-align: center;
+      border:none;
+      height: 100px;
+      width: 600px;
+      font-size: 3.5em;
+      font-family:'Roboto Slab';
+      font-weight:bolder;
+      transition: 0.3s;
+}
+
+#butao:hover {
+      background-color: #EBA7BA;
+      cursor:pointer;
+}
+
+#anco_but {
+      display: flex;
+      justify-content: center;
+      text-decoration: none;
+      margin-left: 0px;
+      margin-right: 0px;
+}
+
+#pag {
+      display: flex;
+      justify-content:center;
+}
+
+#final {
+      display: flex;
+      justify-content: center;
+      background-color:#EFBDCA;
+      height: 100px;
+      font-family: 'inter';
+      font-size: 1em;
+      
+
+}
+
+#final p {
+      display: flex;
+      align-items:center;
+      margin: 2px;
+      color: #fff;
+}
+
